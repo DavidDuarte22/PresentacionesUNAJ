@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TallerUNAJWeatherApp</string>
+    <string name="temperaturaText">Temperatura</string>
+</resources>
