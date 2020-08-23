@@ -10,8 +10,9 @@ import UIKit
 
 class WeatherViewController: UIViewController {
     
-    var weatherObj: WeatherModel
-    
+    var weatherObj: MainWeatherModel
+    let viewModel = WeatherViewModel()
+
     @IBOutlet weak var weatherTitle: UILabel!
     @IBOutlet weak var weatherDate: UILabel!
     @IBOutlet weak var tempLabel: UILabel!
@@ -22,7 +23,7 @@ class WeatherViewController: UIViewController {
         loadWeatherUI(cityWeather: weatherObj)
     }
     
-    required init(weather: WeatherModel) {
+    required init(weather: MainWeatherModel) {
         self.weatherObj = weather
         super.init(nibName: nil, bundle: nil)
     }
@@ -32,33 +33,13 @@ class WeatherViewController: UIViewController {
     }
     
     
-    func loadWeatherUI(cityWeather: WeatherModel) {
+    func loadWeatherUI(cityWeather: MainWeatherModel) {
         self.weatherTitle.text = cityWeather.cityName
-        self.weatherDate.text = getDateTime(timestamp: cityWeather.timezone) ?? " "
+        self.weatherDate.text = "Hoy esta el " + cityWeather.weather.description
         self.tempLabel.text = String(cityWeather.temperature.temp)
         self.minTempLabel.text = String(cityWeather.temperature.tempMin)
         self.maxTempLabel.text = String(cityWeather.temperature.tempMax)
     }
     
-    func getDateTime(timestamp: TimeInterval) -> String? {
-        return timestamp.stringFromTimeInterval()
-    }
     
-}
-
-
-extension TimeInterval{
-
-    func stringFromTimeInterval() -> String {
-
-        let time = NSInteger(self)
-
-        let ms = Int((self.truncatingRemainder(dividingBy: 1)) * 1000)
-        let seconds = time % 60
-        let minutes = (time / 60) % 60
-        let hours = (time / 3600)
-
-        return String(format: "%0.2d:%0.2d:%0.2d.%0.3d",hours,minutes,seconds,ms)
-
-    }
 }

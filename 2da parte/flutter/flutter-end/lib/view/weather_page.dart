@@ -1,8 +1,8 @@
-import 'package:TallerUNAJ2/model/weather_model.dart';
+import 'package:TallerUNAJ2/model/main_weather_model.dart';
 import 'package:flutter/material.dart';
 
 class WeatherPage extends StatelessWidget {
-  final WeatherModel cityWeather;
+  final MainWeatherModel cityWeather;
 
   WeatherPage(this.cityWeather);
 
@@ -17,7 +17,7 @@ class WeatherPage extends StatelessWidget {
               25,
               padding: EdgeInsets.fromLTRB(0, 60, 0, 10)
             ),
-            WeatherTitlePage(timestampToString(DateTime.fromMicrosecondsSinceEpoch(cityWeather.timestamp)), 18),
+            WeatherTitlePage(cityWeather.description.description, 18),
             MainTempPage(cityWeather.temperature.temp),
             Text("Temperatura"),
             Row(

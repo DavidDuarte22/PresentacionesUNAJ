@@ -9,16 +9,11 @@ class WeatherInitial extends WeatherState {
   List<Object> get props => [];
 }
 
-class WeatherLoadedState extends WeatherState {
-  final WeatherModel weather;
+class NewWeatherState extends WeatherState {
+  final MainWeatherModel weather;
 
-  WeatherLoadedState(this.weather);
+  NewWeatherState(this.weather);
   @override
-  List<Object> get props => [];
-
-}
-
-class WeatherErrorState extends WeatherState {
-  @override
-  List<Object> get props => [];
+  // TODO: implement props
+  List<Object> get props => [weather];
 }

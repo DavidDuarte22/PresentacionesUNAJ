@@ -1,6 +1,5 @@
-import 'package:TallerUNAJ2/Repository/weather_repo.dart';
 import 'package:TallerUNAJ2/bloc/weather_bloc.dart';
-import 'package:TallerUNAJ2/model/weather_model.dart';
+import 'package:TallerUNAJ2/model/main_weather_model.dart';
 import 'package:TallerUNAJ2/model/temp_model.dart';
 import 'package:TallerUNAJ2/view/weather_page.dart';
 import 'package:flutter/material.dart';
@@ -21,9 +20,9 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: BlocProvider(
-        create: (context) => WeatherBloc(WeatherRepo()),
-        child: MyHomePage()
-      )
+        create: (context) => WeatherBloc(),
+        child: MyHomePage(),
+      ),
     );
   }
 }
@@ -31,18 +30,22 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+
     return BlocListener<WeatherBloc, WeatherState>(
-      listener: (context, state){
-        if (state is WeatherLoadedState) navigateToCityWeather(context, state.weather);
+      listener: (context, state) {
+        if (state is NewWeatherState){
+          navigateToCityWeather(context, state.weather);
+        }
       },
-      child:  Scaffold(
-        appBar: AppBar(),
-          body: Center(
+
+      child: Scaffold(
+          appBar: AppBar(),
+          body:
+          Center(
             child: Column(
               children: <Widget>[
                 TitlePage(),
-                InputTextFieldPage(),
-                SearchButton()
+                TextFieldPage(),
               ],
             ),
           )
@@ -50,12 +53,11 @@ class MyHomePage extends StatelessWidget {
     );
   }
 
-  navigateToCityWeather(BuildContext context, WeatherModel cityWeather) {
-    Navigator.push(context,
-        MaterialPageRoute(
-            builder: (context) =>  WeatherPage(cityWeather)
-        )
-    );
+
+  navigateToCityWeather(BuildContext context, MainWeatherModel cityWeather) {
+    Navigator.of(context).push(MaterialPageRoute(
+        builder: (context) =>  WeatherPage(cityWeather)
+    ));
   }
 }
 
@@ -75,39 +77,40 @@ class TitlePage extends StatelessWidget {
   }
 }
 
-class InputTextFieldPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      padding: EdgeInsets.fromLTRB(40, 10, 40, 10),
-        child: TextFormField(
-          decoration: InputDecoration(
-            hintText: "Ingrese nombre de la ciudad"
-          )
-        )
-    );
-  }
-}
-
-class SearchButton extends StatelessWidget {
+class TextFieldPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final weatherBloc = BlocProvider.of<WeatherBloc>(context);
+    final cityWeatherController = TextEditingController();
+    FocusScopeNode currentFocus = FocusScope.of(context);
 
     return Container(
-      padding: EdgeInsets.fromLTRB(40, 10, 40, 10),
-      child: RaisedButton(
-        padding: EdgeInsets.fromLTRB(120, 10, 110, 10),
-        child: Text(
-            "BUSCAR",
-          style: TextStyle(color: Colors.white),
-        ),
-        color: Colors.grey,
-        onPressed: () {
-          weatherBloc.add(FetchWeatherEvent("Buenos Aires, CABA"));
-//          navigateToCityWeather(context, cityWeather);
-        },
-      ),
+        padding: EdgeInsets.fromLTRB(40, 10, 40, 10),
+        child: Column (
+          children: <Widget>[
+            TextFormField(
+                controller: cityWeatherController,
+                decoration: InputDecoration(
+                    hintText: "Ingrese nombre de la ciudad"
+                ),
+            ),
+            SizedBox(height: 10),
+            RaisedButton(
+              padding: EdgeInsets.fromLTRB(120, 10, 110, 10),
+              child: Text(
+                "BUSCAR",
+                style: TextStyle(color: Colors.white),
+              ),
+              color: Colors.grey,
+              onPressed: () {
+                if (!currentFocus.hasPrimaryFocus) {
+                  currentFocus.unfocus();
+                }
+                weatherBloc.add(FetchWeatherEvent(cityWeatherController.text));
+              },
+            )
+          ],
+        )
     );
   }
 }

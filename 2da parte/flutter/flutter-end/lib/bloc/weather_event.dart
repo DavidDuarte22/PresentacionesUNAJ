@@ -8,23 +8,14 @@ class FetchWeatherEvent extends WeatherEvent {
   final String cityName;
 
   FetchWeatherEvent(this.cityName);
-
-  // como es equatable sobreescribimos nuestras propiedades
-  @override
-   List<Object> get props => [cityName];
-
-}
-
-class ResetWeatherEvent extends WeatherEvent {
-
   @override
   // TODO: implement props
-  List<Object> get props => [];
+  List<Object> get props => [cityName];
 }
 
 class ErrorWeatherEvent extends WeatherEvent {
-
   @override
   // TODO: implement props
-  List<Object> get props => [];
+  List<Object> get props => throw UnimplementedError();
+
 }

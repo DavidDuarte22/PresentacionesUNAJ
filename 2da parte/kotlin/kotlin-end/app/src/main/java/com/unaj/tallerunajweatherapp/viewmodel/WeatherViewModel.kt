@@ -3,7 +3,8 @@ package com.unaj.tallerunajweatherapp.viewmodel
 import androidx.lifecycle.MutableLiveData
 import com.unaj.tallerunajweatherapp.model.TempModel
 import com.unaj.tallerunajweatherapp.repository.WeatherImplementation
-import com.unaj.tallerunajweatherapp.view.model.WeatherModel
+import com.unaj.tallerunajweatherapp.view.model.MainWeatherModel
+import java.util.*
 import kotlin.math.round
 
 interface WeatherViewModel {
@@ -12,7 +13,7 @@ interface WeatherViewModel {
 
 class WeatherViewModelImplementation: WeatherViewModel {
     private val repository = WeatherImplementation()
-    val cityWeather = MutableLiveData<WeatherModel>()
+    val cityWeather = MutableLiveData<MainWeatherModel>()
 
     override fun fetchCityWeather(cityName: String) {
         // Parte 3: crear metodo async con manejo de errores y liveData

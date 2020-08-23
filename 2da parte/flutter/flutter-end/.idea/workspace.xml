@@ -1,7 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5814431-ab06-4a1c-841a-5613927b84df" name="Default Changelist" comment="" />
+    <list default="true" id="73c1fb4d-96b0-4c0f-864d-3d14017f32bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/model/main_weather_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/bloc/weather_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/bloc/weather_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/bloc/weather_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/model/main_weather_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/model/weather_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/repository/weather_repository.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/kotlin-end/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/kotlin-end/app/src/main/java/com/unaj/tallerunajweatherapp/model/MainWeatherModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/kotlin-start/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/kotlin-start/app/src/main/java/com/unaj/tallerunajweatherapp/model/MainWeatherModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/kotlin-start/app/src/main/java/com/unaj/tallerunajweatherapp/repository/WeatherRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../kotlin/kotlin-start/app/src/main/java/com/unaj/tallerunajweatherapp/viewmodel/WeatherViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../swift/swift-start/TallerUNAJWeatherApp/Repository/WeatherRepository.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/b1b100821fa0f6c702faf27af3054162/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/b1b100821fa0f6c702faf27af3054162/.filecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/b1b100821fa0f6c702faf27af3054162/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/b1b100821fa0f6c702faf27af3054162/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/b1b100821fa0f6c702faf27af3054162/debug_ios_bundle_flutter_assets.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/b1b100821fa0f6c702faf27af3054162/debug_ios_bundle_flutter_assets.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/b1b100821fa0f6c702faf27af3054162/flutter_assets.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/b1b100821fa0f6c702faf27af3054162/flutter_assets.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/b1b100821fa0f6c702faf27af3054162/kernel_snapshot.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/b1b100821fa0f6c702faf27af3054162/kernel_snapshot.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/b1b100821fa0f6c702faf27af3054162/kernel_snapshot.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/b1b100821fa0f6c702faf27af3054162/kernel_snapshot.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/df9e8cefdc6d88439558502cb61a7414/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/df9e8cefdc6d88439558502cb61a7414/.filecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/df9e8cefdc6d88439558502cb61a7414/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/df9e8cefdc6d88439558502cb61a7414/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/df9e8cefdc6d88439558502cb61a7414/kernel_snapshot.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/df9e8cefdc6d88439558502cb61a7414/kernel_snapshot.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/df9e8cefdc6d88439558502cb61a7414/kernel_snapshot.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/df9e8cefdc6d88439558502cb61a7414/kernel_snapshot.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/Flutter.framework/Flutter" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Frameworks/Flutter.framework/Flutter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/Runner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/Debug-iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/App" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/Flutter.framework/Flutter" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Frameworks/Flutter.framework/Flutter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Runner" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/Runner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/ios/iphonesimulator/Runner.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Repository/weather_repo.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Repository/weather_repo.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bloc/weather_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bloc/weather_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bloc/weather_event.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bloc/weather_event.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bloc/weather_state.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bloc/weather_state.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/weather_model.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/view/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/view/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/view/weather_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/view/weather_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TallerUNAJ2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/WeatherModel.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/view/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/view/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/view/weather_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/view/weather_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-end/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-end/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-end/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-end/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-end/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-end/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-end/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-end/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-end/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-end/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-end/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-end/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-end/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-end/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-end/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-end/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-end/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-end/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-end/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-end/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-end/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-end/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-end/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-end/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-end/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-end/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-end/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-end/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-end/app/src/main/java/com/unaj/tallerunajweatherapp/model/WeatherModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-end/app/src/main/java/com/unaj/tallerunajweatherapp/model/WeatherModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-end/app/src/main/java/com/unaj/tallerunajweatherapp/repository/WeatherRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-end/app/src/main/java/com/unaj/tallerunajweatherapp/repository/WeatherRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-end/app/src/main/java/com/unaj/tallerunajweatherapp/view/WeatherActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-end/app/src/main/java/com/unaj/tallerunajweatherapp/view/WeatherActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-end/app/src/main/java/com/unaj/tallerunajweatherapp/viewmodel/WeatherViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-end/app/src/main/java/com/unaj/tallerunajweatherapp/viewmodel/WeatherViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-start/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-start/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-start/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-start/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-start/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-start/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-start/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-start/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-start/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-start/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-start/app/src/main/java/com/unaj/tallerunajweatherapp/model/WeatherModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-start/app/src/main/java/com/unaj/tallerunajweatherapp/model/WeatherModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-start/app/src/main/java/com/unaj/tallerunajweatherapp/view/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-start/app/src/main/java/com/unaj/tallerunajweatherapp/view/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../kotlin/kotlin-start/app/src/main/java/com/unaj/tallerunajweatherapp/view/WeatherActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../kotlin/kotlin-start/app/src/main/java/com/unaj/tallerunajweatherapp/view/WeatherActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../swift/swift-end/TallerUNAJWeatherApp.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../swift/swift-end/TallerUNAJWeatherApp.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../swift/swift-end/TallerUNAJWeatherApp.xcodeproj/project.xcworkspace/xcuserdata/itsupport.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../swift/swift-end/TallerUNAJWeatherApp.xcodeproj/project.xcworkspace/xcuserdata/itsupport.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../swift/swift-end/TallerUNAJWeatherApp.xcodeproj/xcuserdata/itsupport.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" afterPath="$PROJECT_DIR$/../../swift/swift-end/TallerUNAJWeatherApp.xcodeproj/xcuserdata/itsupport.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../swift/swift-end/TallerUNAJWeatherApp/Model/WeatherModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../swift/swift-end/TallerUNAJWeatherApp/Model/WeatherModel.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../swift/swift-end/TallerUNAJWeatherApp/Repository/WeatherService.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../swift/swift-end/TallerUNAJWeatherApp/Repository/WeatherService.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../swift/swift-end/TallerUNAJWeatherApp/View/WeatherViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../swift/swift-end/TallerUNAJWeatherApp/View/WeatherViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../swift/swift-end/TallerUNAJWeatherApp/ViewModel/WeatherViewModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../swift/swift-end/TallerUNAJWeatherApp/ViewModel/WeatherViewModel.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../swift/swift-start/TallerUNAJWeatherApp.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../swift/swift-start/TallerUNAJWeatherApp.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../swift/swift-start/TallerUNAJWeatherApp.xcodeproj/project.xcworkspace/xcuserdata/itsupport.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../../swift/swift-start/TallerUNAJWeatherApp.xcodeproj/project.xcworkspace/xcuserdata/itsupport.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../swift/swift-start/TallerUNAJWeatherApp/Model/WeatherModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../swift/swift-end/TallerUNAJWeatherApp/Model/MainWeatherModel.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../swift/swift-start/TallerUNAJWeatherApp/View/MainViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../swift/swift-start/TallerUNAJWeatherApp/View/MainViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../swift/swift-start/TallerUNAJWeatherApp/View/WeatherView.xib" beforeDir="false" afterPath="$PROJECT_DIR$/../../swift/swift-start/TallerUNAJWeatherApp/View/WeatherView.xib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../swift/swift-start/TallerUNAJWeatherApp/View/WeatherViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../swift/swift-start/TallerUNAJWeatherApp/View/WeatherViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../swift/swift-start/TallerUNAJWeatherApp/ViewModel/WeatherViewModel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../swift/swift-start/TallerUNAJWeatherApp/ViewModel/WeatherViewModel.swift" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +117,18 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1gKKQGUjcxJozpbmXplHTbiZTfJ" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gQFAuwxakDq1Y9It2fQjwAGi4C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,17 +140,15 @@
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib/bloc" />
-      <recent name="$PROJECT_DIR$/lib/Repository" />
-    </key>
-  </component>
   <component name="RunManager">
-    <configuration name="Main" type="FlutterRunConfigurationType" factoryName="Flutter">
+    <configuration default="true" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/view/main.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/lib/view/main.dart" />
       <method v="2" />
     </configuration>
@@ -46,54 +158,59 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c5814431-ab06-4a1c-841a-5613927b84df" name="Default Changelist" comment="" />
-      <created>1597857825564</created>
+      <changelist id="73c1fb4d-96b0-4c0f-864d-3d14017f32bc" name="Default Changelist" comment="" />
+      <created>1598038768558</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597857825564</updated>
+      <updated>1598038768558</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="291" y="-878" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597858445130">
-      <screen x="-133" y="-1080" width="1920" height="1080" />
-    </state>
-    <state x="291" y="-878" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-133.-1080.1920.1080@-133.-1080.1920.1080" timestamp="1597858445130" />
-    <state x="564" y="-743" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1597858279806">
-      <screen x="-133" y="-1080" width="1920" height="1080" />
-    </state>
-    <state x="564" y="-743" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1440.900/-133.-1080.1920.1080@-133.-1080.1920.1080" timestamp="1597858279806" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1597916797230">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598038833836">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/-133.-1080.1920.1080@-133.-1080.1920.1080" timestamp="1597860828127" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1597916797230" />
-    <state width="1400" height="375" key="GridCell.Tab.0.bottom/0.23.1440.826/-133.-1057.1920.1057@-133.-1057.1920.1057" timestamp="1597861665897" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1597916797229">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1598038833836" />
+    <state x="457" y="247" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1598038816586">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1440.900/-133.-1080.1920.1080@-133.-1080.1920.1080" timestamp="1597860828125" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1597916797229" />
-    <state width="1400" height="375" key="GridCell.Tab.0.center/0.23.1440.826/-133.-1057.1920.1057@-133.-1057.1920.1057" timestamp="1597861665896" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1597916797228">
+    <state x="457" y="247" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1598038816586" />
+    <state width="1398" height="181" key="GridCell.Tab.0.bottom" timestamp="1598143876127">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1440.900/-133.-1080.1920.1080@-133.-1080.1920.1080" timestamp="1597860828124" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1597916797228" />
-    <state width="1400" height="375" key="GridCell.Tab.0.left/0.23.1440.826/-133.-1057.1920.1057@-133.-1057.1920.1057" timestamp="1597861665895" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1597916797230">
+    <state width="1534" height="74" key="GridCell.Tab.0.bottom/0.0.1440.900/-133.-1080.1920.1080@-133.-1080.1920.1080" timestamp="1598050184763" />
+    <state width="1398" height="181" key="GridCell.Tab.0.bottom/0.0.1440.900/-133.-1080.1920.1080@0.0.1440.900" timestamp="1598143876127" />
+    <state width="1398" height="181" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1598142585112" />
+    <state width="1534" height="74" key="GridCell.Tab.0.bottom/0.23.1440.877/-133.-1057.1920.1006@-133.-1057.1920.1006" timestamp="1598048787338" />
+    <state width="1398" height="181" key="GridCell.Tab.0.center" timestamp="1598143876125">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1440.900/-133.-1080.1920.1080@-133.-1080.1920.1080" timestamp="1597860828126" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1597916797230" />
-    <state width="1400" height="375" key="GridCell.Tab.0.right/0.23.1440.826/-133.-1057.1920.1057@-133.-1057.1920.1057" timestamp="1597861665896" />
-    <state x="567" y="-890" key="SettingsEditor" timestamp="1597862579919">
-      <screen x="-133" y="-1057" width="1920" height="1057" />
+    <state width="1534" height="74" key="GridCell.Tab.0.center/0.0.1440.900/-133.-1080.1920.1080@-133.-1080.1920.1080" timestamp="1598050184761" />
+    <state width="1398" height="181" key="GridCell.Tab.0.center/0.0.1440.900/-133.-1080.1920.1080@0.0.1440.900" timestamp="1598143876125" />
+    <state width="1398" height="181" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1598142585111" />
+    <state width="1534" height="74" key="GridCell.Tab.0.center/0.23.1440.877/-133.-1057.1920.1006@-133.-1057.1920.1006" timestamp="1598048787336" />
+    <state width="1398" height="181" key="GridCell.Tab.0.left" timestamp="1598143876124">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="567" y="-890" key="SettingsEditor/0.23.1440.826/-133.-1057.1920.1057@-133.-1057.1920.1057" timestamp="1597862579919" />
-    <state x="-33" y="-980" width="1720" height="880" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1597860817124">
-      <screen x="-133" y="-1080" width="1920" height="1080" />
+    <state width="1534" height="74" key="GridCell.Tab.0.left/0.0.1440.900/-133.-1080.1920.1080@-133.-1080.1920.1080" timestamp="1598050184760" />
+    <state width="1398" height="181" key="GridCell.Tab.0.left/0.0.1440.900/-133.-1080.1920.1080@0.0.1440.900" timestamp="1598143876124" />
+    <state width="1398" height="181" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1598142585110" />
+    <state width="1534" height="74" key="GridCell.Tab.0.left/0.23.1440.877/-133.-1057.1920.1006@-133.-1057.1920.1006" timestamp="1598048787335" />
+    <state width="1398" height="181" key="GridCell.Tab.0.right" timestamp="1598143876126">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="-33" y="-980" width="1720" height="880" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1440.900/-133.-1080.1920.1080@-133.-1080.1920.1080" timestamp="1597860817124" />
+    <state width="1534" height="74" key="GridCell.Tab.0.right/0.0.1440.900/-133.-1080.1920.1080@-133.-1080.1920.1080" timestamp="1598050184762" />
+    <state width="1398" height="181" key="GridCell.Tab.0.right/0.0.1440.900/-133.-1080.1920.1080@0.0.1440.900" timestamp="1598143876126" />
+    <state width="1398" height="181" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1598142585111" />
+    <state width="1534" height="74" key="GridCell.Tab.0.right/0.23.1440.877/-133.-1057.1920.1006@-133.-1057.1920.1006" timestamp="1598048787337" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1598138199702">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1598138199702" />
+    <state x="-133" y="-1057" key="SettingsEditor/0.23.1440.877/-133.-1057.1920.1006@-133.-1057.1920.1006" timestamp="1598048544400" />
+    <state x="100" y="100" width="1240" height="700" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1598138864111">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1440.900@0.0.1440.900" timestamp="1598138864111" />
   </component>
 </project>

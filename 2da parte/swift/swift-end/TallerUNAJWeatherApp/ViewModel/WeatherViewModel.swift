@@ -8,11 +8,20 @@
 
 import Foundation
 
-class WeatherViewModel {
+protocol WheaterViewModelInterface {
+    func fetchWeatherByCity(cityName: String) -> MainWeatherModel?
+}
+
+class WeatherViewModel: WheaterViewModelInterface {
     let repositoryInstance = WeatherService()
     
-    func fetchWeatherByCity(cityName: String) -> WeatherModel? {
-        let weather = repositoryInstance.fetchWeatherByCity(cityName: cityName)
+    func fetchWeatherByCity(cityName: String) -> MainWeatherModel? {
+        var weather = repositoryInstance.fetchWeatherByCity(cityName: cityName)
+        weather.temperature = kelvinTempToCelcius(kevinTemp: weather.temperature)
         return weather
+    }
+    
+    func kelvinTempToCelcius(kevinTemp: TempModel) -> TempModel {
+        return TempModel(temp: round(kevinTemp.temp - 273.15), tempMin: round(kevinTemp.tempMin - 273.15), tempMax: round(kevinTemp.tempMax - 273.15))
     }
 }
