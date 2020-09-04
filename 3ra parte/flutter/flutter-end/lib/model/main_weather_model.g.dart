@@ -1,0 +1,27 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'main_weather_model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+MainWeatherModel _$MainWeatherModelFromJson(Map<String, dynamic> json) {
+  return MainWeatherModel(
+    json['name'] as String,
+    (json['weather'] as List)
+        ?.map((e) =>
+            e == null ? null : WeatherModel.fromJson(e as Map<String, dynamic>))
+        ?.toList(),
+    json['main'] == null
+        ? null
+        : TempModel.fromJson(json['main'] as Map<String, dynamic>),
+  );
+}
+
+Map<String, dynamic> _$MainWeatherModelToJson(MainWeatherModel instance) =>
+    <String, dynamic>{
+      'name': instance.cityName,
+      'weather': instance.description,
+      'main': instance.temperature,
+    };
